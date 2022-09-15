@@ -19,7 +19,7 @@ export default function App() {
     return (
         <div data-theme={
             theme ? "night" : "light"
-        } className={`${theme ? 'night' : 'bg-slate-900/10'} h-screen overflow-hidden`}>
+        } className={`${theme ? "bg-[url('https://i.ibb.co/y8QMy2P/bg-dar-md.jpg')]" : "bg-[url('https://i.ibb.co/r66ZP7V/bg-light-md.jpg')]"} h-screen bg-cover overflow-hidden`}>
             <InitializeContext.Provider value={{
                 theme,
                 handleThemeChange

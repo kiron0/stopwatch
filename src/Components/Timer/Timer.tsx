@@ -50,7 +50,7 @@ export default function Timer() {
                 </button>
             </div>
             <main className="h-[85vh] md:h-screen flex justify-center items-center flex-col md:-mt-12">
-                <section className={`flex ${theme ? 'text-white' : 'text-[#8C96F2]'} mb-10 md:mb-5`}>
+                <section className={`flex ${theme ? 'text-white' : 'text-[#666565]'} mb-10 md:mb-5`}>
                     <p className="text-6xl" id="hour">{timerArray[0]}</p>
                     <span className="text-6xl relative tracking-wide -mt-1">:</span>
                     <p className="text-6xl" id="minute">{timerArray[1]}</p>
